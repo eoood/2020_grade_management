@@ -233,12 +233,12 @@ void menu_9() //9. 선택한 학생을 삭제하는 기능
 	{
 		if (!strcmp(name, std[i].name))
 		{
-			for (j = i + 1; j < len; j++) {
+			for (j = i; j < len; j++) {
 				std[j] = std[j + 1];
 			}
+			len--;
 		}
 	}
-	len--;
 	printf("삭제가 완료되었습니다.\n");
 	printf("\n\n");
 	printf("메뉴 입력('q' 입력시 종료): ");
