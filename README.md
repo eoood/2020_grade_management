@@ -14,8 +14,7 @@
 + IDE: VisualStudio2019
 + OS: Window10
 
-## 실행화면
-+ 관리자 학생정보 추가
+
 
 
 
